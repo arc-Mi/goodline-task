@@ -1,0 +1,45 @@
+* {
+  font-family: Tahoma, sans-serif;
+  background-color: #fff;
+  outline: none;
+}
+
+html {position: static;}
+
+body {margin: 2px;}
+
+#app {
+  position: relative;
+  height: 390px;
+  width: 220px;
+  margin: 50px;
+  border: 1px solid grey;
+}
+
+#list {
+  position: absolute;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  border: solid grey 1px;
+}
+
+#list select {
+  padding: 10px;
+  margin: -5px -20px -5px -5px;
+  height: 300px;
+  width: 200px;
+}
+
+#buttons {
+  position: absolute;
+  top: 325px;
+  left: 20px;
+}
+
+#buttons button {
+  height: 50px;
+  width: 86px;
+  border: 1px solid grey;
+}
